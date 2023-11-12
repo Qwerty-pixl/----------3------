@@ -307,9 +307,7 @@ section {
   justify-content: center;
   align-self: center;
   gap: 225px;
-  justify-content: center;
   margin-left: 250px;
-
 }
 
 .feel_tit {
@@ -395,7 +393,9 @@ section {
 .right_img:hover::before {
   opacity: 3;
 }
-
+.little{
+  background: var(--neutral-02, #F9F9F7);
+}
 
 .left_text {
   width: 556px;
@@ -436,7 +436,7 @@ section {
 .left_fact {
   border-radius: 8px;
   border: 1px solid var(--neutral-03, #DBDFD0);
-  background: var(--neutral-01, #FFF);
+  background: var(--neutral-01, #FFFFFF);
   width: 293px;
   height: 174px;
   flex-shrink: 0;
@@ -445,6 +445,7 @@ section {
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+
   
 }
 
