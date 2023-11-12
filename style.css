@@ -335,6 +335,7 @@ section {
 .second_img {
   width: 48px;
   height: 48px;
+  padding-right: 24px;
 }
 .second_txt{
   width: 294px;
@@ -354,8 +355,8 @@ section {
 
 .bottom {
   display: flex;
-  width: 1272px;
   gap: 87px;
+  margin-left: 20px;
 }
 
 .bottom_first {
@@ -388,12 +389,13 @@ section {
   background-image: url(/img/chel.jpg);
   opacity: 0;
   z-index: 1;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .right_img:hover::before {
-  opacity: 0.5;
+  opacity: 3;
 }
+
 
 .left_text {
   width: 556px;
@@ -442,7 +444,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  margin-bottom: 24px;
+  
 }
 
 .fact_tit {
